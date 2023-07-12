@@ -405,6 +405,10 @@ a {
   align-items: flex-start;
 }
 
+._2c-grid-wrapper._404-page {
+  height: 80%;
+}
+
 ._2c-grid-item {
   width: 49%;
 }
@@ -483,6 +487,7 @@ a {
 }
 
 .pattern-full._404 {
+  background-size: auto 100%;
   margin-bottom: 40px;
 }
 
@@ -800,7 +805,7 @@ a {
 }
 
 .rsvp-response-yes, .rsvp-response-no {
-  display: block;
+  display: none;
 }
 
 .button-wrapper {
@@ -866,9 +871,10 @@ a {
 }
 
 ._100vh {
-  height: 100vh;
-  min-height: 600px;
+  height: auto;
+  min-height: 100vh;
   flex-direction: column;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -943,6 +949,11 @@ a {
     top: 0%;
     bottom: -18px;
     left: -18px;
+  }
+
+  ._100vh {
+    height: 100vh;
+    min-height: 600px;
   }
 }
 
